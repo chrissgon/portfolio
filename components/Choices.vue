@@ -20,7 +20,7 @@
       v-text="text"
       @click="show"
       :class="{ isSelected }"
-      class="answer relative text-slate-500 text-center cursor-pointer mx-2 font-medium [&.isSelected]:after:!hidden after:content-[''] after:flex after:w-2 after:h-2 after:absolute after:top-1 after:left-1 after:rounded-full after:bg-amber-500 after:animate-ping"
+      class="answer relative text-slate-500 text-center cursor-pointer px-2 font-medium [&.isSelected]:after:!hidden after:content-[''] after:flex after:w-2 after:h-2 after:absolute after:top-1 after:right-1 after:rounded-full after:bg-amber-500 after:animate-ping"
     ></span>
   </div>
 </template>
@@ -55,6 +55,14 @@ function show(): void {
 function hide(): void {
   visible.value = false;
 }
+
+// watch
+watch(
+  () => props.right,
+  () => {
+    set();
+  }
+);
 </script>
 
 <style scoped>

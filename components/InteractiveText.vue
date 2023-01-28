@@ -1,7 +1,7 @@
 <template>
   <article>
     <span v-text="texts[0]"></span>
-    <Choices :choices="shuffle(choices)" :right="texts[2][0]" />
+    <Choices :choices="shuffle(choices)" :right="choices[0]" />
     <span v-text="texts[1]"></span>
   </article>
 </template>
@@ -17,12 +17,15 @@ const props = defineProps<Props>();
 const TranslatorStore = useTranslatorStore();
 
 // data
-const texts = TranslatorStore.getInteractiveText(props.label);
-const choices = [...texts[2]];
+const texts = computed<any[]>(() =>
+  TranslatorStore.getInteractiveText(props.label)
+);
+const choices = computed<string[]>(() => texts.value[2]);
 
 // methods
 function shuffle(arr: any[]): any[] {
-  return arr.sort(() => Math.random() - 0.5);
+  const random = [...arr];
+  return random.sort(() => Math.random() - 0.5);
 }
 </script>
 

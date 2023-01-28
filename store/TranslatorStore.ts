@@ -17,7 +17,11 @@ export const useTranslatorStore = defineStore(
 
     function getInteractiveText(label: string): any[] {
       const interactive: string[] = getText(label).split("_");
-      interactive[2] = texts[label][2];
+      const answers = texts[label][2].map((answer: string) => {
+        const parts = answer.split("|");
+        return english.value ? parts[0] : parts[1];
+      });
+      interactive[2] = answers;
       return interactive;
     }
 

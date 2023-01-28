@@ -18,6 +18,9 @@
       label="indexIntro"
       class="relative text-lg md:text-xl text-center md:max-w-5xl mt-14"
     />
+    <!-- <InteractiveText
+      label="temp"
+    /> -->
 
     <!-- buttons -->
     <div class="flex flex-col sm:flex-row mt-6">
