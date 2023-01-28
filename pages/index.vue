@@ -34,7 +34,7 @@
 
     <!-- alert -->
     <Badge
-      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mt-8 md:mt-24 mb-24 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
+      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mt-8 md:mt-24 mb-10 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <Badge class="text-base bg-amber-400 px-2 py-1 mr-2">
         <i class="bi-lightbulb-fill dark:text-slate-700"></i>
