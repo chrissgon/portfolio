@@ -1,6 +1,6 @@
 <template>
   <main
-    class="page relative w-full flex flex-col sm:justify-center items-center"
+    class="page relative w-full flex flex-col justify-center items-center"
   >
     <!-- title -->
     <h1
