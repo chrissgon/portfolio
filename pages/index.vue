@@ -5,18 +5,19 @@
     <!-- title -->
     <h1
       :class="{ english: TranslatorStore.english }"
-      class="title firacode text-3xl text-center md:text-5xl md:max-w-3xl"
+      class="w-full firacode text-3xl text-center md:text-5xl"
     >
       <span v-text="TranslatorStore.getText('indexWelcome')"></span>
+      <br />
       <TextTyping
         :qualifications="qualifications"
-        class="leading-normal text-primary-500"
+        class="whitespace-nowrap leading-normal text-primary-500"
       />
     </h1>
 
     <InteractiveText
       label="indexIntro"
-      class="relative text-lg md:text-xl text-center md:max-w-5xl mt-14"
+      class="relative text-lg md:text-xl text-center md:max-w-5xl mt-6"
     />
     <!-- <InteractiveText
       label="temp"
@@ -61,14 +62,10 @@ const TranslatorStore = useTranslatorStore();
 const qualifications = reactive([
   "Web Developer",
   "Javascript Developer",
-  "Vue Developer",
   "Golang Developer",
+  "Vue Developer",
   "Nuxt Developer",
 ]);
 </script>
 
-<style scoped>
-.title:not(.english) {
-  max-width: 50rem !important;
-}
-</style>
+<style scoped></style>
