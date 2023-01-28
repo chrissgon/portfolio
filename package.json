@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.13.0",
+    "@pinia/nuxt": "^0.4.6",
+    "@types/node": "^18.11.18",
+    "click-outside-vue3": "^4.0.1",
+    "pinia": "^2.0.28",
+    "pinia-plugin-persistedstate": "^2.2.0"
+  }
+}

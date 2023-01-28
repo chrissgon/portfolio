@@ -1,0 +1,20 @@
+{
+  "indexWelcome": [
+    "Hi, I'm Christopher and I'm ",
+    "Olá, me chamo Christopher e sou "
+  ],
+  "indexIntro": [
+    "My first contact with technology was at the age of _, when after using a computer, I became curious about how it works.",
+    "Meu primeiro contato com a tecnologia foi aos _ anos, em que após usar um computador, fiquei curioso sobre o seu funcionamento.",
+    ["6", "10", "14"]
+  ],
+  "indexAlert": [
+    "This project is an Interactive Portfolio. Click whenever you see the element",
+    "Este projeto é um Portfólio Interativo. Clique sempre que ver o elemento"
+  ],
+  "temp": [
+    "Eu acorde de _ e bla bla bla",
+    "Eu acorde de _ e bla bla bla",
+    ["manha", "tarde", "noite"]
+  ]
+}
