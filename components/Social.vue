@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute bottom-10 flex text-xl sm:text-2xl [&_a]:mx-4">
+  <div class="flex absolute -bottom-10 text-xl sm:text-2xl [&_a]:mx-4">
     <a href="https://www.linkedin.com/in/chrissgon/" target="_blank">
       <i class="bi-linkedin text-sky-600"></i>
     </a>
