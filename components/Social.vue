@@ -7,7 +7,7 @@
       <i class="bi-github"></i>
     </a>
     <a href="mailto:chrissgon.dev@gmail.com">
-      <img src="gmail.svg" class="w-7" />
+      <img src="/gmail.svg" class="w-7" />
     </a>
   </div>
 </template>

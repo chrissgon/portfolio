@@ -9,7 +9,7 @@
       id="english"
       class="hidden"
     />
-    <img :src="`${getImage}.png`" class="h-4" />
+    <img :src="`/${getImage}.png`" class="h-4" />
     <span v-text="getText" class="mx-2 text-xs font-medium"></span>
     <i class="bi-arrow-left-right text-xs text-slate-500"></i>
   </label>

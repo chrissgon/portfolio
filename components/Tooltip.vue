@@ -4,7 +4,7 @@
   >
     <slot></slot>
     <img
-      src="triangle.svg"
+      src="/triangle.svg"
       class="absolute -bottom-2 left-1/2 -translate-x-1/2"
     />
   </span>

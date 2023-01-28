@@ -6,7 +6,7 @@
     <input v-model="ModeStore.dark" id="mode" type="checkbox" class="hidden" />
 
     <img
-      :src="`${getImage}mode.svg`"
+      :src="`/${getImage}mode.svg`"
       :class="{ right: ModeStore.dark }"
       class="rounded-full w-6 h-6 p-1.5 transition-transform bg-sky-100 dark:bg-slate-800 select-none"
     />

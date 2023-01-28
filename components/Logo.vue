@@ -1,6 +1,6 @@
 <template>
   <a href="https://linkedin.com/in/chrissgon" target="_blank" class="relative flex justify-center items-center">
-    <img src="tag.svg" />
+    <img src="/tag.svg" />
     <p class="absolute text-xl -ml-2 font-medium firacode">chrissgon</p>
   </a>
 </template>
