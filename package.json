@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "Chrissgon Portfolio",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
