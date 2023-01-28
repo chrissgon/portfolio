@@ -2,38 +2,41 @@ body * {
   font-family: "Inter";
 }
 
-.firacode, .firacode * {
+.firacode,
+.firacode * {
   font-family: "Fira Code";
 }
 
-.page{
+.page {
   min-height: calc(100vh - 72px);
 }
 
-.scrollbar::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-.scrollbar::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
-}
-.scrollbar::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border: none;
-  border-radius: 100px;
-}
-.dark .scrollbar::-webkit-scrollbar-thumb {
-  background: #334155;
-}
-.scrollbar::-webkit-scrollbar-track {
-  background: #f8fafc;
-  border: none;
-  border-radius: 0;
-}
-.dark .scrollbar::-webkit-scrollbar-track {
-  background: #1e293b;
-}
-.scrollbar::-webkit-scrollbar-corner {
-  background: transparent;
+@media (min-width: 961px) and (min-width: 1025px) and (min-width: 1281px) {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .scrollbar::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border: none;
+    border-radius: 100px;
+  }
+  .dark .scrollbar::-webkit-scrollbar-thumb {
+    background: #334155;
+  }
+  .scrollbar::-webkit-scrollbar-track {
+    background: #f8fafc;
+    border: none;
+    border-radius: 0;
+  }
+  .dark .scrollbar::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+  .scrollbar::-webkit-scrollbar-corner {
+    background: transparent;
+  }
 }
