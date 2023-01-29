@@ -5,7 +5,7 @@
       class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-10 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <span class="text-xl"></span>
-      <Badge class="text-2xl bg-transparent mr-2 !p-0">👋🏻</Badge>
+      <Badge class="text-xl bg-transparent mr-2 !p-0">👋🏻</Badge>
 
       <span v-text="TranslatorStore.getText('indexAlert')"></span>
 
