@@ -14,7 +14,8 @@
       </Badge>
     </Badge>
 
-    <div class="flex flex-col items-center">
+    <!-- intro -->
+    <article class="flex flex-col items-center">
       <!-- title -->
       <h1
         :class="{ english: TranslatorStore.english }"
@@ -32,9 +33,6 @@
         label="indexIntro"
         class="relative text-lg md:text-xl text-center md:max-w-5xl mt-6"
       />
-      <!-- <InteractiveText
-        label="temp"
-      /> -->
 
       <!-- buttons -->
       <div class="flex flex-col items-center sm:flex-row mt-6">
@@ -45,7 +43,7 @@
           {{ TranslatorStore.getText("indexSecondaryButton") }}
         </Button>
       </div>
-    </div>
+    </article>
 
     <Social />
   </main>
@@ -65,4 +63,8 @@ const qualifications = reactive([
 ]);
 </script>
 
-<style scoped></style>
+<style scoped>
+.intro {
+  max-width: -webkit-fill-available;
+}
+</style>
