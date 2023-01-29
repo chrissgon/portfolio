@@ -2,7 +2,7 @@
   <main class="page relative w-full flex flex-col justify-between items-center">
     <!-- alert -->
     <Badge
-      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
+      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-10 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <Badge class="text-base bg-amber-400 px-2 py-1 mr-2">
         <i class="bi-lightbulb-fill dark:text-slate-700"></i>
@@ -11,13 +11,7 @@
       <span v-text="TranslatorStore.getText('indexAlert')"></span>
 
       <Badge class="relative text-xl bg-transparent text-slate-500">
-        <!-- <span class="text-primary-500"></span> -->
-        <!-- ?
-        <div
-        class="w-3 h-3 absolute top-1 right-1 rounded-full bg-amber-500 animate-ping"
-        ></div> -->
         <i class="bi bi-hand-index-thumb rotate-45"></i>
-        <!-- <img src="/cursor.svg" class="absolute left-6"  /> -->
       </Badge>
     </Badge>
 
