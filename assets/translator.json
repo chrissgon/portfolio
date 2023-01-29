@@ -4,22 +4,16 @@
     "Olá, me chamo Christopher e sou "
   ],
   "indexIntro": [
-    "My first contact with technology was at the age of _, when after using a computer, I became curious about how it works.",
-    "Meu primeiro contato com a tecnologia foi aos _ anos, em que após usar um computador, fiquei curioso sobre o seu funcionamento.",
+    "My first contact with technology was at the age of _ 👶🏻, when after using a computer, I became curious about how it works 🤔",
+    "Meu primeiro contato com a tecnologia foi aos _ anos 👶🏻, em que após usar um computador, fiquei curioso sobre o seu funcionamento 🤔",
     ["6|6", "10|10", "14|14"]
   ],
   "indexAlert": [
     "This project is an Interactive Portfolio. Click whenever you see the element",
     "Este projeto é um Portfólio Interativo. Clique sempre que ver o elemento"
   ],
-  "indexPrimaryButton": [
-    "My career",
-    "Minha carreira"
-  ],
-  "indexSecondaryButton": [
-    "My projects",
-    "Meus projetos"
-  ],
+  "indexPrimaryButton": ["My career", "Minha carreira"],
+  "indexSecondaryButton": ["My projects 💻", "Meus projetos 💻"],
   "temp": [
     "I am up _ e bla bla bla",
     "Eu acordo de _ and bla bla bla",

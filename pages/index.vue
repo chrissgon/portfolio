@@ -4,14 +4,13 @@
     <Badge
       class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-10 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
-      <Badge class="text-base bg-amber-400 px-2 py-1 mr-2">
-        <i class="bi-lightbulb-fill dark:text-slate-700"></i>
-      </Badge>
+      <span class="text-xl"></span>
+      <Badge class="text-2xl bg-transparent mr-2 !p-0">👋🏻</Badge>
 
       <span v-text="TranslatorStore.getText('indexAlert')"></span>
 
-      <Badge class="relative text-xl bg-transparent text-slate-500">
-        <i class="bi bi-hand-index-thumb rotate-45"></i>
+      <Badge class="relative text-xl bg-transparent !p-0">
+        <span class="rotate-45">👆</span>
       </Badge>
     </Badge>
 
@@ -44,7 +43,6 @@
         </Button>
         <Button class="m-2">
           {{ TranslatorStore.getText("indexSecondaryButton") }}
-          <i class="bi-code-slash"></i>
         </Button>
       </div>
     </div>

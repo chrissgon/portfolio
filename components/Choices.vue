@@ -16,10 +16,7 @@
       </Badge>
     </Tooltip>
 
-    <i
-      v-if="!isSelected"
-      class="bi-hand-index-thumb  text-slate-500 absolute rotate-45 top-2 right-5"
-    ></i>
+    <span v-if="!isSelected" class="absolute rotate-45 top-2 right-4">👆</span>
 
     <span
       v-text="text"

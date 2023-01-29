@@ -1,7 +1,7 @@
 export const useModeStore = defineStore(
   "ModeStore",
   () => {
-    const dark = ref(false);
+    const dark = ref(true);
 
     return { dark };
   },
