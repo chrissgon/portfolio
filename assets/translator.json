@@ -12,6 +12,14 @@
     "This project is an Interactive Portfolio. Click whenever you see the element",
     "Este projeto é um Portfólio Interativo. Clique sempre que ver o elemento"
   ],
+  "indexPrimaryButton": [
+    "My career",
+    "Minha carreira"
+  ],
+  "indexSecondaryButton": [
+    "My projects",
+    "Meus projetos"
+  ],
   "temp": [
     "I am up _ e bla bla bla",
     "Eu acordo de _ and bla bla bla",
