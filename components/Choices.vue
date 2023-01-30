@@ -26,7 +26,7 @@
       v-text="text"
       @click="show"
       :class="{ isSelected }"
-      class="answer relative text-slate-500 text-center cursor-pointer px-3 font-medium [&.isSelected]:after:!hidden after:content-[''] after:hidden after:w-2 after:h-2 after:absolute after:top-1 after:right-2 after:rounded-full after:bg-amber-500 after:animate-ping after:-z-10"
+      class="answer relative text-slate-500 text-center cursor-pointer px-3 font-medium"
     ></span>
   </div>
 </template>
@@ -85,7 +85,7 @@ watch(
 .hand {
   animation: move 5s infinite;
 }
-.answer {
+.answer:not(.isSelected) {
   animation: click 5s infinite;
 }
 

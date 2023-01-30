@@ -60,6 +60,7 @@ const qualifications = reactive([
   "Golang Developer",
   "Vue Developer",
   "Nuxt Developer",
+  "Typescript Developer",
 ]);
 </script>
 
