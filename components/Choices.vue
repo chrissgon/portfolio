@@ -97,7 +97,7 @@ watch(
     transform: scale(1);
   }
   50% {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
 @keyframes move {
