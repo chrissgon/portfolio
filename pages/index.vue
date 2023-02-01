@@ -52,9 +52,9 @@
           }"
           class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-8 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 [&.love]:bg-love [&.love_svg]:fill-love [&.like]:bg-like [&.like_svg]:fill-like sm:translate-x-32 py-1"
         >
-          <img src="like.gif" class="reaction [.like_&]:flex" />
-          <img src="love.gif" class="reaction [.love_&]:flex" />
-          <img src="wow.gif" class="reaction [.wow_&]:flex !w-6 my-1" />
+          <img src="/like.gif" class="reaction [.like_&]:flex" />
+          <img src="/love.gif" class="reaction [.love_&]:flex" />
+          <img src="/wow.gif" class="reaction [.wow_&]:flex !w-6 my-1" />
         </Tooltip>
 
         <span v-text="TranslatorStore.getText('indexWelcome')"></span>
@@ -118,7 +118,7 @@ function setReaction(react: Reaction): void {
 }
 
 .reaction {
-  animation: up .4s ease;
+  animation: up 0.4s ease;
 }
 .reactions {
   transition: 0.2s all;
@@ -128,13 +128,13 @@ function setReaction(react: Reaction): void {
 }
 
 @keyframes up {
-  from{
+  from {
     transform: scale(0);
   }
-  50%{
+  50% {
     transform: scale(1.3);
   }
-  to{
+  to {
     transform: scale(1);
   }
 }
