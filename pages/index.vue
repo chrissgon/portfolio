@@ -16,11 +16,47 @@
 
     <!-- intro -->
     <article class="flex flex-col items-center">
+      <div class="relative w-full flex justify-end mt-10 sm:mt-0">
+        <Tooltip
+          class="flex text-inherit sm:right-32 bottom-5 bg-slate-100 dark:bg-slate-800 [&_img]:cursor-pointer [&_.reactions]:w-8"
+        >
+          <img
+            @click="setReaction(Reaction.Like)"
+            src="/like.gif"
+            class="reactions mr-3"
+          />
+
+          <img
+            @click="setReaction(Reaction.Love)"
+            src="/love.gif"
+            class="reactions mr-3"
+          />
+          <img
+            @click="setReaction(Reaction.Wow)"
+            src="/wow.gif"
+            class="reactions"
+          />
+        </Tooltip>
+      </div>
+
       <!-- title -->
       <h1
         :class="{ english: TranslatorStore.english }"
         class="w-full firacode text-3xl text-center md:text-5xl"
       >
+        <Tooltip
+          :class="{
+            like: reaction === Reaction.Like,
+            love: reaction === Reaction.Love,
+            wow: reaction === Reaction.Wow,
+          }"
+          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-8 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 [&.love]:bg-love [&.love_svg]:fill-love [&.like]:bg-like [&.like_svg]:fill-like sm:translate-x-32 py-1"
+        >
+          <img src="like.gif" class="reaction [.like_&]:flex" />
+          <img src="love.gif" class="reaction [.love_&]:flex" />
+          <img src="wow.gif" class="reaction [.wow_&]:flex !w-6 my-1" />
+        </Tooltip>
+
         <span v-text="TranslatorStore.getText('indexWelcome')"></span>
         <br />
         <TextTyping
@@ -50,10 +86,17 @@
 </template>
 
 <script setup lang="ts">
+enum Reaction {
+  Like,
+  Love,
+  Wow,
+}
+
 // store
 const TranslatorStore = useTranslatorStore();
 
 // data
+const reaction = ref<Reaction>(Reaction.Like);
 const qualifications = reactive([
   "Web Developer",
   "Javascript Developer",
@@ -62,10 +105,37 @@ const qualifications = reactive([
   "Nuxt Developer",
   "Typescript Developer",
 ]);
+
+// methods
+function setReaction(react: Reaction): void {
+  reaction.value = react;
+}
 </script>
 
 <style scoped>
 .intro {
   max-width: -webkit-fill-available;
+}
+
+.reaction {
+  animation: up .4s ease;
+}
+.reactions {
+  transition: 0.2s all;
+}
+.reactions:hover {
+  transform: scale(1.2);
+}
+
+@keyframes up {
+  from{
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  to{
+    transform: scale(1);
+  }
 }
 </style>

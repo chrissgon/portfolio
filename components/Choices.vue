@@ -1,10 +1,6 @@
 <template>
   <div v-click-outside="hide" class="relative inline-flex justify-center">
-    <Tooltip
-      v-if="visible"
-      :class="{ isSelected }"
-      class="absolute w-fit -mt-12"
-    >
+    <Tooltip v-if="visible" :class="{ isSelected }" class="w-fit -mt-12">
       <Badge
         v-for="choice in choices"
         @click="set"
