@@ -50,11 +50,11 @@
             love: reaction === Reaction.Love,
             wow: reaction === Reaction.Wow,
           }"
-          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-8 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 [&.love]:bg-love [&.love_svg]:fill-love [&.like]:bg-like [&.like_svg]:fill-like sm:translate-x-32 py-1"
+          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-6 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800  sm:translate-x-32 py-2"
         >
           <img src="/like.gif" class="reaction [.like_&]:flex" />
           <img src="/love.gif" class="reaction [.love_&]:flex" />
-          <img src="/wow.gif" class="reaction [.wow_&]:flex !w-6 my-1" />
+          <img src="/wow.gif" class="reaction [.wow_&]:flex" />
         </Tooltip>
 
         <span v-text="TranslatorStore.getText('indexWelcome')"></span>
