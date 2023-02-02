@@ -1,6 +1,6 @@
-![NOME](./public/thumb.png)
+![Interactive Portfolio](./public/thumb.png)
 
-# NOME
+# Portfolio Interativo
 ### DESCRICAO
 
 ## Comandos
@@ -19,9 +19,6 @@ npm run dev
 
 ## Anotações
 Aplicação hospedada em <a href="http://localhost:3000/">http://localhost:3000/</a>.
-
-## Referências
-- [Referencia](https://google.com)
 
 ---
 Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)
