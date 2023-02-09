@@ -74,12 +74,12 @@
       <div class="flex flex-col-reverse items-center sm:flex-row mt-6">
         <NuxtLink to="/projects">
           <Button class="m-2">
-            {{ TranslatorStore.getText("indexSecondaryButton") }}
+            {{ TranslatorStore.getText("indexSecondaryButton") }} 💻
           </Button>
         </NuxtLink>
         <NuxtLink to="/carrer">
           <Button class="bg-slate-800 text-white m-2">
-            {{ TranslatorStore.getText("indexPrimaryButton") }}
+            {{ TranslatorStore.getText("indexPrimaryButton") }} 
           </Button>
         </NuxtLink>
       </div>

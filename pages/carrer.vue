@@ -29,7 +29,20 @@
           class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
         />
       </template>
-      <template #2017> 2017 </template>
+      <template #2017> 
+        <h4
+          v-text="TranslatorStore.getText('carrer2017Title')"
+          class="firacode text-xl sm:text-2xl text-center"
+        ></h4>
+        <InteractiveText
+          label="carrer2017Info1"
+          class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
+        />
+        <InteractiveText
+          label="carrer2017Info2"
+          class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
+        />
+    </template>
       <template #2019> 2019 </template>
       <template #2020> 2020 </template>
       <template #2021> 2021 </template>
