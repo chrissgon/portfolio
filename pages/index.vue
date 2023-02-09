@@ -2,7 +2,7 @@
   <main class="page relative w-full flex flex-col items-center">
     <!-- alert -->
     <Badge
-      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-20 sm:mb-44 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
+      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-10 sm:mb-44 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <span class="text-xl"></span>
       <Badge class="text-xl bg-transparent mr-2 !p-0">👋🏻</Badge>
