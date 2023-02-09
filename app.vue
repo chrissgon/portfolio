@@ -5,7 +5,7 @@
   >
     <!-- <BackgroundParallax /> -->
     <section
-      class="App scrollbar w-full h-screen relative overflow-x-hidden px-5 sm:px-10"
+      class="App scrollbar w-full relative overflow-x-hidden px-5 sm:px-10"
     >
       <Header class="pt-10 pb-36" />
       <div class="-mt-28">
