@@ -37,14 +37,14 @@
 
     <!-- buttons -->
     <div class="flex flex-col items-center sm:flex-row mt-8 mb-14 sm:mt-14">
-      <Button class="m-2">
-        <NuxtLink to="/"> Home 🏠 </NuxtLink>
-      </Button>
-      <Button class="bg-slate-800 text-white m-2">
-        <NuxtLink to="/projects">
+      <NuxtLink to="/">
+        <Button class="m-2"> Home 🏠 </Button>
+      </NuxtLink>
+      <NuxtLink to="/projects">
+        <Button class="bg-slate-800 text-white m-2">
           {{ TranslatorStore.getText("indexSecondaryButton") }}
-        </NuxtLink>
-      </Button>
+        </Button>
+      </NuxtLink>
     </div>
   </article>
 </template>
