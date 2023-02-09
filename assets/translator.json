@@ -18,5 +18,25 @@
     "I am up _ e bla bla bla",
     "Eu acordo de _ and bla bla bla",
     ["morning|manha", "afternoon|tarde", "night|noite"]
+  ],
+
+  "carrerAlert": [
+    "This section is a timeline. Click whenever you see the element",
+    "Esta seção é uma linha do tempo. Clique sempre que ver o elemento"
+  ],
+
+  "carrer2016Title": [
+    "Beginning of my studies on algorithms",
+    "Início dos meus estudos sobre algoritmos"
+  ],
+  "carrer2016Info1": [
+    "After deciding that I wanted to learn more about programming, I started my studies in a self-taught way through internet courses. I started to develop my logic using _.",
+    "Após decidir que queria aprender mais sobre programação, iniciei meus estudos de maneira autodidata através de cursos pela internet. Comecei a desenvolver minha lógica utilizando o _.",
+    ["VisualG|VisualG", "Javascript|Javascript", "PHP|PHP"]
+  ],
+  "carrer2016Info2": [
+    "In studies I got my first contact with variables, decision structures and repetition, as well as code reuse through _.",
+    "Nos estudos obtive meu primeiro contato com variáveis, estruturas de decisão e repetição, além de reutilização de códigos através de _.",
+    ["Functions|Functions", "Strings|Strings", "IF|IF"]
   ]
 }

@@ -2,6 +2,8 @@
   <span
     class="absolute rounded-full p-2 select-none whitespace-nowrap capitalize text-sm text-white bg-slate-800"
   >
+    <slot></slot>
+
     <span class="absolute -bottom-2 left-1/2 -translate-x-1/2">
       <svg
         class="fill-current text-slate-800 dark:!text-slate-800 [.bg-slate-100_&]:text-slate-100"
@@ -15,7 +17,6 @@
         />
       </svg>
     </span>
-    <slot></slot>
   </span>
 </template>
 

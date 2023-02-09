@@ -1,8 +1,8 @@
 <template>
-  <main class="page relative w-full flex flex-col justify-between items-center">
+  <main class="page relative w-full flex flex-col items-center">
     <!-- alert -->
     <Badge
-      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-10 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
+      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-20 sm:mb-44 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <span class="text-xl"></span>
       <Badge class="text-xl bg-transparent mr-2 !p-0">👋🏻</Badge>
@@ -50,7 +50,7 @@
             love: reaction === Reaction.Love,
             wow: reaction === Reaction.Wow,
           }"
-          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-6 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800  sm:translate-x-32 py-2"
+          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-6 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 sm:translate-x-32 py-2"
         >
           <img src="/like.gif" class="reaction [.like_&]:flex" />
           <img src="/love.gif" class="reaction [.love_&]:flex" />
@@ -72,16 +72,18 @@
 
       <!-- buttons -->
       <div class="flex flex-col items-center sm:flex-row mt-6">
-        <Button class="bg-slate-800 text-white m-2">
-          {{ TranslatorStore.getText("indexPrimaryButton") }}
-        </Button>
         <Button class="m-2">
-          {{ TranslatorStore.getText("indexSecondaryButton") }}
+          <NuxtLink to="/projects">
+            {{ TranslatorStore.getText("indexSecondaryButton") }}
+          </NuxtLink>
+        </Button>
+        <Button class="bg-slate-800 text-white m-2">
+          <NuxtLink to="/carrer">
+            {{ TranslatorStore.getText("indexPrimaryButton") }}
+          </NuxtLink>
         </Button>
       </div>
     </article>
-
-    <Social />
   </main>
 </template>
 

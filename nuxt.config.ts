@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   css: ["@/assets/index.css"],
 
   app: {
+    pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Chrissgon Portfolio",
 
@@ -39,6 +40,9 @@ export default defineNuxtConfig({
       script: [
         {
           src: "https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js",
+        },
+        {
+          src: "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js",
         },
         {
           src: "/parallax.js",
