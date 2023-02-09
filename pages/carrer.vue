@@ -2,7 +2,7 @@
   <article class="page relative w-full flex flex-col items-center">
     <!-- alert -->
     <Badge
-      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-12 sm:mb-24 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
+      class="md:text-sm pointer-events-none select-none rounded-md font-medium normal-case py-2 px-4 mb-12 sm:mb-36 bg-slate-100 text-black dark:bg-slate-800 dark:text-white"
     >
       <span class="text-xl"></span>
       <Badge class="text-xl bg-transparent mr-2 !p-0">👋🏻</Badge>
@@ -116,7 +116,7 @@
     </Timeline>
 
     <!-- buttons -->
-    <div
+    <!-- <div
       class="flex flex-col-reverse items-center sm:flex-row mt-8 mb-14 sm:mt-14"
     >
       <NuxtLink to="/">
@@ -124,10 +124,10 @@
       </NuxtLink>
       <NuxtLink to="/projects">
         <Button class="bg-slate-800 text-white m-2">
-          {{ TranslatorStore.getText("indexSecondaryButton") }}
+          {{ TranslatorStore.getText("navProjectsPage") }}
         </Button>
       </NuxtLink>
-    </div>
+    </div> -->
   </article>
 </template>
 

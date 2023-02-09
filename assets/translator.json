@@ -1,4 +1,8 @@
 {
+  "navIndexPage": ["Home", "Tela Inicial"],
+  "navCarrerPage": ["My Carrer", "Minha Carreira"],
+  "navProjectsPage": ["My Projects", "Meus Projetos"],
+
   "indexWelcome": [
     "Hi, I'm Christopher and I'm ",
     "Olá, me chamo Christopher e sou "
@@ -11,13 +15,6 @@
   "indexAlert": [
     "This project is an Interactive Portfolio. Click whenever you see the element",
     "Este projeto é um Portfólio Interativo. Clique sempre que ver o elemento"
-  ],
-  "indexPrimaryButton": ["My career", "Minha carreira"],
-  "indexSecondaryButton": ["My projects", "Meus projetos"],
-  "temp": [
-    "I am up _ e bla bla bla",
-    "Eu acordo de _ and bla bla bla",
-    ["morning|manha", "afternoon|tarde", "night|noite"]
   ],
 
   "carrerAlert": [
@@ -87,7 +84,7 @@
 
   "carrer2021Slide1Title": [
     "I work as a _ at Digital House",
-    "Trabalho como _ na Digital House",
+    "Inicio como _ na Digital House",
     [
       "Programming Teacher|Professor de Programação",
       "Web Developer|Desenvolvedor Web"
@@ -95,7 +92,7 @@
   ],
   "carrer2021Slide1Info": [
     "Professor in the CTD (Certified Tech Developer) course, which aims to train Junior Developers for the market. I taught students about Javascript, using _ and initiating their first contact with the world of programming.",
-    "Professor no curso CTD (Certified Tech Developer), que tem como objetivo formar Desenvolvedores Juniors para o mercado. Lecionei sobre Javascript aos alunos, utilizando _ e iniciando seu primeiro contato ao mundo da programação.",
+    "Leciono no curso CTD (Certified Tech Developer), que tem como objetivo formar Desenvolvedores Juniors para o mercado. Lecionei sobre Javascript aos alunos, utilizando _ e iniciando seu primeiro contato ao mundo da programação.",
     ["Node|Node", "Typescript|Typescript"]
   ],
 

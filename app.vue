@@ -11,7 +11,8 @@
       <div class="-mt-28">
         <NuxtPage />
       </div>
-      <Social />
+      <Social class="my-10 mb-20 lg:mb-10" />
+      <NavBar class="lg:hidden" />
     </section>
   </div>
 </template>
