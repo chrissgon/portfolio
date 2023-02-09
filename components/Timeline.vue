@@ -39,7 +39,7 @@ interface Props {
 const props = defineProps<Props>();
 
 // data
-const selected = ref<string>(props.labels[2]);
+const selected = ref<string>(props.labels[0]);
 
 // methods
 function select(label: string): void {

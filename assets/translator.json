@@ -73,5 +73,39 @@
     "I present my Course Completion Work, an application to locate used automotive parts, containing authentication with Google and _, as well as integration with Google Maps.",
     "Apresento meu Trabalho de Conclusao de Curso, uma aplicação para localizar peças automotivas usadas, contendo autenticação com Google e _, além de integração com Google Maps.",
     ["Facebook|Facebook", "Twitter|Twitter", "Outlook|Outlook"]
+  ],
+
+  "carrer2020Title": [
+    "Internship at OngSys and promotion to Junior Dev",
+    "Estágio na OngSys e promoção para Dev Júnior"
+  ],
+  "carrer2020Info": [
+    "Maintenance of the OngSys platform. Creation of features, components, testing and implementation, as well as error management. MVC modeling, use of _, Codeigniter, Bootstrap, Jquery and others.",
+    "Manutenção da plataforma OngSys. Criação de funcionalidades, componentes, testes e implementação, além de gestão de erros. Modelagem MVC, utilização de _, Codeigniter, Bootstrap, Jquery e outros.",
+    ["PHP|PHP", "Javascript|Javascript", "Java|Java"]
+  ],
+
+  "carrer2021Slide1Title": [
+    "I work as a _ at Digital House",
+    "Trabalho como _ na Digital House",
+    [
+      "Programming Teacher|Professor de Programação",
+      "Web Developer|Desenvolvedor Web"
+    ]
+  ],
+  "carrer2021Slide1Info": [
+    "Professor in the CTD (Certified Tech Developer) course, which aims to train Junior Developers for the market. I taught students about Javascript, using _ and initiating their first contact with the world of programming.",
+    "Professor no curso CTD (Certified Tech Developer), que tem como objetivo formar Desenvolvedores Juniors para o mercado. Lecionei sobre Javascript aos alunos, utilizando _ e iniciando seu primeiro contato ao mundo da programação.",
+    ["Node|Node", "Typescript|Typescript"]
+  ],
+
+  "carrer2021Slide2Title": [
+    "I started as a Web Developer at Mindbe",
+    "Inicio como Web Developer na Mindbe"
+  ],
+  "carrer2021Slide2Info": [
+    "Creating micro frontends in _, architecture development, component creation, integrations with APIs, WebSockets connections, Docker, MongoDB and others.",
+    "Criação de micro frontends em _, elaboração de arquitetura, criação de componentes, integrações com APIs, conexões WebSockets, Docker, MongoDB e outros.",
+    ["Vue|Vue", "React|React", "Angular|Angular"]
   ]
 }

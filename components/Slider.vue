@@ -11,7 +11,7 @@
       class="bi-chevron-left text-2xl py-10 cursor-pointer"
     ></i>
 
-    <div v-for="i in length" v-show="i === current" class="px-10">
+    <div v-for="i in length" v-show="i === current" class="sm:px-10">
       <slot :name="i"></slot>
     </div>
 
