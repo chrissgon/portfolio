@@ -47,11 +47,31 @@
   "carrer2017Info1": [
     "I participate in the selection process and I am approved in _ place to attend the ETIM of Informatics at Etec Paulistano.",
     "Participo do processo seletivo e sou aprovado em _ lugar para cursar o ETIM de Informática na Etec Paulistano.",
-    ["3rd|3", "4rd|4", "6rd|6"]
+    ["3rd|3º", "4rd|4º", "6rd|6º"]
   ],
   "carrer2017Info2": [
     "The school curriculum provides contact with various areas of technology, from hardware to software, where I arouse interest in _.",
     "A grade escolar proporciona o contato com diversas áreas de tecnologia, do hardware ao software, onde desperto interesse por _.",
     ["FrontEnd|FrontEnd", "BackEnd|BackEnd", "Infra|Infra"]
+  ],
+
+  "carrer2019Slide1Title": [
+    "My first internship at Seno TI",
+    "Meu primeiro estágio na Seno TI"
+  ],
+  "carrer2019Slide1Info": [
+    "I started my first professional experience as an intern at Seno TI. Performed maintenance of the Saphir platform, made in _. My responsibilities were layout design, optimization and error correction.",
+    "Iniciei minha primeira experiência profissional como estagiário na Seno TI. Realizei manutenção da plataforma Saphir, feita em _. Minhas responsabilidades eram elaboração de layout, otimização e correção de erros.",
+    ["Wordpress|Wordpress", "React|React", "Vue|Vue"]
+  ],
+
+  "carrer2019Slide2Title": [
+    "Delivery of the Final Project and graduation",
+    "Entrega do Trabalho de Conclusão de Curso e graduação"
+  ],
+  "carrer2019Slide2Info": [
+    "I present my Course Completion Work, an application to locate used automotive parts, containing authentication with Google and _, as well as integration with Google Maps.",
+    "Apresento meu Trabalho de Conclusao de Curso, uma aplicação para localizar peças automotivas usadas, contendo autenticação com Google e _, além de integração com Google Maps.",
+    ["Facebook|Facebook", "Twitter|Twitter", "Outlook|Outlook"]
   ]
 }

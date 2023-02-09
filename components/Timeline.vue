@@ -21,9 +21,10 @@
     <article class="mt-8 sm:mt-16">
       <div
         v-for="label in labels"
+        v-show="selected === label"
         class="flex flex-col justify-center items-center"
       >
-        <slot v-if="selected === label" :name="label"></slot>
+        <slot :name="label"></slot>
       </div>
     </article>
   </div>
@@ -38,7 +39,7 @@ interface Props {
 const props = defineProps<Props>();
 
 // data
-const selected = ref<string>(props.labels[0]);
+const selected = ref<string>(props.labels[2]);
 
 // methods
 function select(label: string): void {

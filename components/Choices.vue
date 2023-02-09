@@ -62,7 +62,7 @@ function hide(): void {
 watch(
   () => props.right,
   () => {
-    set();
+    if (isSelected.value) set();
   }
 );
 </script>

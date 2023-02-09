@@ -2,6 +2,11 @@ body * {
   font-family: "Inter";
 }
 
+*[disabled="true"] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .firacode,
 .firacode * {
   font-family: "Fira Code";

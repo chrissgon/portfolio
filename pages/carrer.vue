@@ -17,7 +17,7 @@
       <template #2016>
         <h4
           v-text="TranslatorStore.getText('carrer2016Title')"
-          class="firacode text-xl sm:text-2xl text-center"
+          class="firacode text-xl sm:text-2xl text-center text-primary-500"
         ></h4>
 
         <InteractiveText
@@ -29,10 +29,10 @@
           class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
         />
       </template>
-      <template #2017> 
+      <template #2017>
         <h4
           v-text="TranslatorStore.getText('carrer2017Title')"
-          class="firacode text-xl sm:text-2xl text-center"
+          class="firacode text-xl sm:text-2xl text-center text-primary-500"
         ></h4>
         <InteractiveText
           label="carrer2017Info1"
@@ -42,14 +42,39 @@
           label="carrer2017Info2"
           class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
         />
-    </template>
-      <template #2019> 2019 </template>
+      </template>
+      <template #2019>
+        <Slider :length="2">
+          <template #1>
+            <h4
+              v-text="TranslatorStore.getText('carrer2019Slide1Title')"
+              class="firacode text-xl sm:text-2xl text-center text-primary-500"
+            ></h4>
+            <InteractiveText
+              label="carrer2019Slide1Info"
+              class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
+            />
+          </template>
+          <template #2>
+            <h4
+              v-text="TranslatorStore.getText('carrer2019Slide2Title')"
+              class="firacode text-xl sm:text-2xl text-center text-primary-500"
+            ></h4>
+            <InteractiveText
+              label="carrer2019Slide2Info"
+              class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
+            />
+          </template>
+        </Slider>
+      </template>
       <template #2020> 2020 </template>
       <template #2021> 2021 </template>
     </Timeline>
 
     <!-- buttons -->
-    <div class="flex flex-col-reverse items-center sm:flex-row mt-8 mb-14 sm:mt-14">
+    <div
+      class="flex flex-col-reverse items-center sm:flex-row mt-8 mb-14 sm:mt-14"
+    >
       <NuxtLink to="/">
         <Button class="m-2"> Home 🏠 </Button>
       </NuxtLink>
