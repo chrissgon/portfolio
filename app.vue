@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{ dark: dark }"
-    class="[&.dark]:bg-slate-900 [&.dark]:text-white overflow-hidden"
+    class="[&.dark]:bg-slate-900 [&.dark]:text-white"
   >
     <!-- <BackgroundParallax /> -->
     <section

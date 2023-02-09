@@ -18,7 +18,7 @@
     <article class="flex flex-col items-center">
       <div class="relative w-full flex justify-end mt-10 sm:mt-0">
         <Tooltip
-          class="flex text-inherit sm:right-32 bottom-5 bg-slate-100 dark:bg-slate-800 [&_img]:cursor-pointer [&_.reactions]:w-8"
+          class="flex text-inherit sm:right-32 bottom-5 bg-slate-100 dark:bg-slate-800 [&_img]:cursor-pointer [&_.reactions]:w-6"
         >
           <img
             @click="setReaction(Reaction.Like)"
