@@ -30,13 +30,13 @@
     "Início dos meus estudos sobre algoritmos"
   ],
   "carrer2016Info1": [
-    "After deciding that I wanted to learn more about programming, I started my studies in a self-taught way through internet courses. I started to develop my logic using _.",
-    "Após decidir que queria aprender mais sobre programação, iniciei meus estudos de maneira autodidata através de cursos pela internet. Comecei a desenvolver minha lógica utilizando o _.",
+    "After deciding that I wanted to learn more about programming, I started my studies in a self-taught way through internet courses. That way, using _ I started to develop my programming logic.",
+    "Após decidir que queria aprender mais sobre programação, inicío meus estudos de maneira autodidata através de cursos pela internet. Dessa forma, utilizando o _ comecei a desenvolver minha lógica de programação.",
     ["VisualG|VisualG", "Javascript|Javascript", "PHP|PHP"]
   ],
   "carrer2016Info2": [
-    "In studies I got my first contact with variables, decision structures and repetition, as well as code reuse through _.",
-    "Nos estudos obtive meu primeiro contato com variáveis, estruturas de decisão e repetição, além de reutilização de códigos através de _.",
+    "In studies, I got my first contact with variables, decision and repetition structures, as well as _ that allow us to reuse codes.",
+    "Nos estudos obtive meu primeiro contato com variáveis, estruturas de decisão e repetição, além de _ que nos possibilita a reutilização de códigos.",
     ["Functions|Functions", "Strings|Strings", "IF|IF"]
   ]
 }

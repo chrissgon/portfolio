@@ -42,9 +42,6 @@ export default defineNuxtConfig({
           src: "https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js",
         },
         {
-          src: "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js",
-        },
-        {
           src: "/parallax.js",
         },
       ],

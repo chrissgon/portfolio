@@ -1,6 +1,6 @@
 <template>
   <span
-    class="absolute rounded-full p-2 select-none whitespace-nowrap capitalize text-sm text-white bg-slate-800"
+    class="absolute rounded-full p-2 select-none whitespace-nowrap capitalize text-sm text-white bg-slate-800 dark:!bg-slate-800 [&.bg-slate-100]:bg-slate-100"
   >
     <slot></slot>
 
