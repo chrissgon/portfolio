@@ -71,7 +71,7 @@
       />
 
       <!-- buttons -->
-      <div class="flex flex-col items-center sm:flex-row mt-6">
+      <div class="flex flex-col-reverse items-center sm:flex-row mt-6">
         <NuxtLink to="/projects">
           <Button class="m-2">
             {{ TranslatorStore.getText("indexSecondaryButton") }}

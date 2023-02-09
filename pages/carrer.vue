@@ -36,7 +36,7 @@
     </Timeline>
 
     <!-- buttons -->
-    <div class="flex flex-col items-center sm:flex-row mt-8 mb-14 sm:mt-14">
+    <div class="flex flex-col-reverse items-center sm:flex-row mt-8 mb-14 sm:mt-14">
       <NuxtLink to="/">
         <Button class="m-2"> Home 🏠 </Button>
       </NuxtLink>
