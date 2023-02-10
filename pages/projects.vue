@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page relative w-full flex flex-col items-center">
         projects
     </div>
 </template>
