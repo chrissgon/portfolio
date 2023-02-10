@@ -3,7 +3,7 @@
     :class="{ dark: dark }"
     class="[&.dark]:bg-slate-900 [&.dark]:text-white"
   >
-    <BackgroundParallax />
+    <Background />
     <section
       class="App scrollbar w-full relative overflow-x-hidden px-5 sm:px-10"
     >

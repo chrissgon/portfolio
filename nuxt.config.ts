@@ -37,14 +37,6 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap",
         },
       ],
-      script: [
-        {
-          src: "https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js",
-        },
-        {
-          src: "/parallax.js",
-        },
-      ],
     },
   },
 
