@@ -13,7 +13,7 @@ body * {
 }
 
 .page {
-  min-height: calc(100vh - 220px);
+  min-height: calc(100vh - 300px);
 }
 
 .page-enter-active,
@@ -26,7 +26,11 @@ body * {
   transform: translateY(10px);
 }
 
-@media (min-width: 961px) and (min-width: 1025px) and (min-width: 1281px) {
+@media (min-width: 961px) and (min-width: 1024px)  {
+  .page {
+    min-height: calc(100vh - 220px)!important;
+  }
+
   .scrollbar::-webkit-scrollbar {
     width: 10px;
     height: 10px;

@@ -44,6 +44,7 @@ nav {
 
 .item {
   display: inline-flex;
+  white-space: nowrap;
   justify-content: center;
   align-items: center;
   padding: 0.25rem 0.75rem;
