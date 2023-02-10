@@ -39,7 +39,7 @@
 
   "carrer2017Title": [
     "I start my course in Informatics at Etec Paulistano",
-    "Inicio meu curso de Informatica na Etec Paulistano"
+    "Começo meu curso de Informatica na Etec Paulistano"
   ],
   "carrer2017Info1": [
     "I participate in the selection process and I am approved in _ place to attend the ETIM of Informatics at Etec Paulistano.",
@@ -47,8 +47,8 @@
     ["3rd|3º", "4rd|4º", "6rd|6º"]
   ],
   "carrer2017Info2": [
-    "The school curriculum provides contact with various areas of technology, from hardware to software, where I arouse interest in _.",
-    "A grade escolar proporciona o contato com diversas áreas de tecnologia, do hardware ao software, onde desperto interesse por _.",
+    "The school grade provides contact with several areas of technology, from hardware to software, where I arouse interest in _.",
+    "A grade escolar proporciona o contato com diversas áreas da tecnologia, do hardware ao software, onde desperto interesse por _.",
     ["FrontEnd|FrontEnd", "BackEnd|BackEnd", "Infra|Infra"]
   ],
 
@@ -57,8 +57,8 @@
     "Meu primeiro estágio na Seno TI"
   ],
   "carrer2019Slide1Info": [
-    "I started my first professional experience as an intern at Seno TI. Performed maintenance of the Saphir platform, made in _. My responsibilities were layout design, optimization and error correction.",
-    "Iniciei minha primeira experiência profissional como estagiário na Seno TI. Realizei manutenção da plataforma Saphir, feita em _. Minhas responsabilidades eram elaboração de layout, otimização e correção de erros.",
+    "I started my first professional experience as an intern at Seno TI. Performed maintenance of the Saphir platform, made in _. My responsibilities were to design the layout, optimize and correct errors on the platform.",
+    "Iniciei minha primeira experiência profissional como estagiário na Seno TI. Realizei manutenção da plataforma Saphir, feita em _. Minhas responsabilidades eram de elaboração de layout, otimização e correção de erros da plataforma.",
     ["Wordpress|Wordpress", "React|React", "Vue|Vue"]
   ],
 
@@ -76,23 +76,27 @@
     "Internship at OngSys and promotion to Junior Dev",
     "Estágio na OngSys e promoção para Dev Júnior"
   ],
-  "carrer2020Info": [
-    "Maintenance of the OngSys platform. Creation of features, components, testing and implementation, as well as error management. MVC modeling, use of _, Codeigniter, Bootstrap, Jquery and others.",
-    "Manutenção da plataforma OngSys. Criação de funcionalidades, componentes, testes e implementação, além de gestão de erros. Modelagem MVC, utilização de _, Codeigniter, Bootstrap, Jquery e outros.",
+  "carrer2020Info1": [
+    "I started my internship at OngSys, where I would later be promoted to Junior Dev. My responsibilities were the maintenance of the OngSys platform.",
+    "Iniciei meu estágio na OngSys, onde posteriormente seria promovido para Dev Júnior. Minhas responsabilidades eram a manutenção da plataforma OngSys."
+  ],
+  "carrer2020Info2": [
+    "Performed the creation of features, components, testing and implementation, as well as error management. The main technologies were _, Codeigniter, Bootstrap and Jquery, in MVC model.",
+    "Realizava a criação de funcionalidades, componentes, testes e implementação, além de gestão de erros. As principais tecnologias eram _, Codeigniter, Bootstrap e Jquery, em modelo MVC.",
     ["PHP|PHP", "Javascript|Javascript", "Java|Java"]
   ],
 
   "carrer2021Slide1Title": [
-    "I work as a _ at Digital House",
-    "Inicio como _ na Digital House",
+    "I teach as a _ at Digital House",
+    "Leciono como _ na Digital House",
     [
       "Programming Teacher|Professor de Programação",
       "Web Developer|Desenvolvedor Web"
     ]
   ],
   "carrer2021Slide1Info": [
-    "Professor in the CTD (Certified Tech Developer) course, which aims to train Junior Developers for the market. I taught students about Javascript, using _ and initiating their first contact with the world of programming.",
-    "Leciono no curso CTD (Certified Tech Developer), que tem como objetivo formar Desenvolvedores Juniors para o mercado. Lecionei sobre Javascript aos alunos, utilizando _ e iniciando seu primeiro contato ao mundo da programação.",
+    "I start the CTD (Certified Tech Developer) course, which aims to train Junior Developers for the market. I taught students about Javascript, using _ and starting their first contact with programming.",
+    "Inicio no curso CTD (Certified Tech Developer), que visa formar Desenvolvedores Juniors para o mercado. Lecionei sobre Javascript aos alunos, utilizando _ e iniciando seu primeiro contato na programação.",
     ["Node|Node", "Typescript|Typescript"]
   ],
 
@@ -101,8 +105,8 @@
     "Inicio como Web Developer na Mindbe"
   ],
   "carrer2021Slide2Info": [
-    "Creating micro frontends in _, architecture development, component creation, integrations with APIs, WebSockets connections, Docker, MongoDB and others.",
-    "Criação de micro frontends em _, elaboração de arquitetura, criação de componentes, integrações com APIs, conexões WebSockets, Docker, MongoDB e outros.",
+    "I start working on the ContactStudio platform made in _, with an architecture based on micro frontends. In it I developed new solutions, creation of components and integrations with APIs, using Docker, Nuxt, TailwindCSS, WebRTC and others as technologies.",
+    "Começo a trabalhar na plataforma ContactStudio feita em _, com arquitetura baseada em micro frontends. Nela desenvolvi novas soluções, criação de componentes e integrações com APIs, tendo como tecnologias Docker, Nuxt, TailwindCSS, WebRTC e outros.",
     ["Vue|Vue", "React|React", "Angular|Angular"]
   ]
 }

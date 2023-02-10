@@ -78,9 +78,17 @@
           v-text="TranslatorStore.getText('carrer2020Title')"
           class="firacode text-xl sm:text-2xl text-center text-primary-500"
         ></h4>
+    
+        <span class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6">
 
+            {{ TranslatorStore.getText("carrer2020Info1") }}
+        </span>
+        <!-- <InteractiveText
+          label="carrer2020Info1"
+          class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
+        /> -->
         <InteractiveText
-          label="carrer2020Info"
+          label="carrer2020Info2"
           class="relative text-base sm:text-lg text-center md:max-w-5xl mt-6"
         />
       </template>
