@@ -2,49 +2,57 @@
   {
     "description": "Aplicação Pokedex em Nuxt 3 + Typescript",
     "name": "Pokedéx",
-    "repo": "https://chrissgon-pokedex.netlify.app/",
+    "repo": "https://github.com/chrissgon/pokedex/",
+    "site": "https://chrissgon-pokedex.netlify.app/",
     "tags": ["pokemon", "pokedex", "pokeapi"]
   },
   {
     "description": "Aplicação de Recomendações de Filmes Natalinos",
     "name": "Santas Movies",
-    "repo": "https://chrissgon-santasmovies.netlify.app/",
+    "repo": "https://github.com/chrissgon/santasmovies/",
+    "site": "https://chrissgon-santasmovies.netlify.app/",
     "tags": ["movies", "omdbapi", "christmas"]
   },
   {
     "description": "Aplicação de Chat criada com Vue + Golang + Docker",
     "name": "Web Chat",
-    "repo": "https://chrissgon-webchat.netlify.app/",
+    "repo": "https://github.com/chrissgon/webchat/",
+    "site": "https://chrissgon-webchat.netlify.app/",
     "tags": ["chat", "websockets", "vue"]
   },
   {
     "description": "Aplicativo de Busca de CEP's",
     "name": "Via Cep",
-    "repo": "https://chrissgon-viacep.netlify.app/",
+    "repo": "https://github.com/chrissgon/viacep/",
+    "site": "https://chrissgon-viacep.netlify.app/",
     "tags": ["vue", "cep", "zipcode"]
   },
   {
     "description": "Aplicação de Envio de Emails criada com Vue + Golang + Docker",
     "name": "Open Mail",
-    "repo": "https://chrissgon-openmail.netlify.app/",
+    "repo": "https://github.com/chrissgon/openmail/",
+    "site": "https://chrissgon-openmail.netlify.app/",
     "tags": ["email", "vue", "golang"]
   },
   {
     "description": "Projeto de Empreendedorismo da Uninove - 1º Semestre",
     "name": "Idea Mais",
-    "repo": "https://chrissgon-ideamais.netlify.app/",
+    "repo": "https://github.com/chrissgon/ideamais/",
+    "site": "https://chrissgon-ideamais.netlify.app/",
     "tags": ["infra", "uninove", "website"]
   },
   {
     "description": "Website de divulgação criado para Dobragraf",
     "name": "Dobragraf",
-    "repo": "https://chrissgon-dobragraf.netlify.app/",
+    "repo": "https://github.com/chrissgon/dobragraf/",
+    "site": "https://chrissgon-dobragraf.netlify.app/",
     "tags": ["website", "dobragraf", "papelaria"]
   },
   {
     "description": "Website criado para a UniBF",
     "name": "UniBF",
-    "repo": "https://chrissgon-unibf.netlify.app/",
+    "repo": "https://github.com/chrissgon/UniBF/",
+    "site": "https://chrissgon-unibf.netlify.app/",
     "tags": ["unibf", "website", "universidade"]
   }
 ]

@@ -4,6 +4,7 @@ export interface Project {
   description?: string;
   name: string;
   repo: string;
+  site: string;
   tags: string[];
 }
 
