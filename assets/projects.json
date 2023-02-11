@@ -1,0 +1,62 @@
+[
+  {
+    "color": "#379CFA",
+    "image": "https://i.ibb.co/1KqNKVM/pokedex.png",
+    "label": "Pokedéx",
+    "links": [["bi-github", "https://github.com/chrissgon/pokedex"]],
+    "order": 1,
+    "url": "https://chrissgon-pokedex.netlify.app/"
+  },
+  {
+    "color": "#4a7275",
+    "image": "https://i.ibb.co/sRdCVK1/santas.png",
+    "label": "Santas Movies",
+    "links": [["bi-github", "https://github.com/chrissgon/santasmovies"]],
+    "order": 3,
+    "url": "https://chrissgon-santasmovies.netlify.app/"
+  },
+  {
+    "color": "#e74c3c",
+    "label": "Idea Mais",
+    "links": [["bi-github", "https://github.com/chrissgon/ideamais"]],
+    "order": 2,
+    "url": "https://chrissgon-ideamais.netlify.app/"
+  },
+  {
+    "color": "#74A7CC",
+    "image": "https://i.ibb.co/5Tf5Z0f/dobragraf.png",
+    "label": "Dobragraf",
+    "links": [["bi-github", "https://github.com/chrissgon/dobragraf"]],
+    "order": 5,
+    "url": "https://chrissgon-dobragraf.netlify.app/"
+  },
+  {
+    "color": "#651ba5",
+    "label": "Via Cep",
+    "links": [["bi-github", "https://github.com/chrissgon/viacep"]],
+    "order": 4,
+    "url": "https://chrissgon-viacep.netlify.app/"
+  },
+  {
+    "color": "#eab308",
+    "label": "Open Mail",
+    "links": [["bi-github", "https://github.com/chrissgon/openmail"]],
+    "order": 6,
+    "url": "https://chrissgon-openmail.netlify.app/"
+  },
+  {
+    "color": "#7bceae",
+    "label": "UniBF",
+    "links": [["bi-github", "https://github.com/chrissgon/unibf"]],
+    "order": 8,
+    "url": "https://chrissgon-unibf.netlify.app/"
+  },
+  {
+    "color": "#3b82f6",
+    "image": "https://i.ibb.co/5WL3Sy6/chat.png",
+    "label": "Web Chat",
+    "links": [["bi-github", "https://github.com/chrissgon/webchat"]],
+    "order": 7,
+    "url": "https://chrissgon-webchat.netlify.app/"
+  }
+]
