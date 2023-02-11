@@ -11,11 +11,11 @@
       </h4>
       <p v-text="props.description" class="text-sm"></p>
 
-      <p class="flex flex-wrap">
+      <p class="flex flex-wrap mt-5">
         <span
           v-for="tag in props.tags"
           v-text="tag"
-          class="bg text-xs text-primary-500 rounded-full p-1 px-3 mr-2 mt-5"
+          class="bg text-xs text-primary-500 rounded-full p-1 px-3 mr-2 mt-2"
         ></span>
       </p>
     </div>
