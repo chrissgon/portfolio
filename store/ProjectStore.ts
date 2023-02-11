@@ -5,7 +5,7 @@ export interface Project {
   name: string;
   repo: string;
   site: string;
-  tags: string[];
+  topics: string[];
 }
 
 export const useProjectStore = defineStore("ProjectStore", () => {
