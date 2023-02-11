@@ -1,62 +1,50 @@
 [
   {
-    "color": "#379CFA",
-    "image": "https://i.ibb.co/1KqNKVM/pokedex.png",
-    "label": "Pokedéx",
-    "links": [["bi-github", "https://github.com/chrissgon/pokedex"]],
-    "order": 1,
-    "url": "https://chrissgon-pokedex.netlify.app/"
+    "description": "Aplicação Pokedex em Nuxt 3 + Typescript",
+    "name": "Pokedéx",
+    "repo": "https://chrissgon-pokedex.netlify.app/",
+    "tags": ["pokemon", "pokedex", "pokeapi"]
   },
   {
-    "color": "#4a7275",
-    "image": "https://i.ibb.co/sRdCVK1/santas.png",
-    "label": "Santas Movies",
-    "links": [["bi-github", "https://github.com/chrissgon/santasmovies"]],
-    "order": 3,
-    "url": "https://chrissgon-santasmovies.netlify.app/"
+    "description": "Aplicação de Recomendações de Filmes Natalinos",
+    "name": "Santas Movies",
+    "repo": "https://chrissgon-santasmovies.netlify.app/",
+    "tags": ["movies", "omdbapi", "christmas"]
   },
   {
-    "color": "#e74c3c",
-    "label": "Idea Mais",
-    "links": [["bi-github", "https://github.com/chrissgon/ideamais"]],
-    "order": 2,
-    "url": "https://chrissgon-ideamais.netlify.app/"
+    "description": "Aplicação de Chat criada com Vue + Golang + Docker",
+    "name": "Web Chat",
+    "repo": "https://chrissgon-webchat.netlify.app/",
+    "tags": ["chat", "websockets", "vue"]
   },
   {
-    "color": "#74A7CC",
-    "image": "https://i.ibb.co/5Tf5Z0f/dobragraf.png",
-    "label": "Dobragraf",
-    "links": [["bi-github", "https://github.com/chrissgon/dobragraf"]],
-    "order": 5,
-    "url": "https://chrissgon-dobragraf.netlify.app/"
+    "description": "Aplicativo de Busca de CEP's",
+    "name": "Via Cep",
+    "repo": "https://chrissgon-viacep.netlify.app/",
+    "tags": ["vue", "cep", "zipcode"]
   },
   {
-    "color": "#651ba5",
-    "label": "Via Cep",
-    "links": [["bi-github", "https://github.com/chrissgon/viacep"]],
-    "order": 4,
-    "url": "https://chrissgon-viacep.netlify.app/"
+    "description": "Aplicação de Envio de Emails criada com Vue + Golang + Docker",
+    "name": "Open Mail",
+    "repo": "https://chrissgon-openmail.netlify.app/",
+    "tags": ["email", "vue", "golang"]
   },
   {
-    "color": "#eab308",
-    "label": "Open Mail",
-    "links": [["bi-github", "https://github.com/chrissgon/openmail"]],
-    "order": 6,
-    "url": "https://chrissgon-openmail.netlify.app/"
+    "description": "Projeto de Empreendedorismo da Uninove - 1º Semestre",
+    "name": "Idea Mais",
+    "repo": "https://chrissgon-ideamais.netlify.app/",
+    "tags": ["infra", "uninove", "website"]
   },
   {
-    "color": "#7bceae",
-    "label": "UniBF",
-    "links": [["bi-github", "https://github.com/chrissgon/unibf"]],
-    "order": 8,
-    "url": "https://chrissgon-unibf.netlify.app/"
+    "description": "Website de divulgação criado para Dobragraf",
+    "name": "Dobragraf",
+    "repo": "https://chrissgon-dobragraf.netlify.app/",
+    "tags": ["website", "dobragraf", "papelaria"]
   },
   {
-    "color": "#3b82f6",
-    "image": "https://i.ibb.co/5WL3Sy6/chat.png",
-    "label": "Web Chat",
-    "links": [["bi-github", "https://github.com/chrissgon/webchat"]],
-    "order": 7,
-    "url": "https://chrissgon-webchat.netlify.app/"
+    "description": "Website criado para a UniBF",
+    "name": "UniBF",
+    "repo": "https://chrissgon-unibf.netlify.app/",
+    "tags": ["unibf", "website", "universidade"]
   }
 ]

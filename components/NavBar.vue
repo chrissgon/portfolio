@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-full h-16 fixed z-10 bottom-0 left-0 flex justify-center items-center pb-5 [&_.item.active]:bg-slate-100 [&_.item.active]:dark:bg-slate-800 bg-white dark:bg-slate-900"
+    class="w-full h-16 fixed bottom-0 left-0 flex justify-center items-center pb-5 [&_.item.active]:bg-slate-100 [&_.item.active]:dark:bg-slate-800 bg-white dark:bg-slate-900"
   >
     <NuxtLink to="/">
       <p :class="{ active: isActive('index') }" class="item">

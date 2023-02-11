@@ -1,42 +1,26 @@
 <template>
   <div
-    :style="{ background: props.color }"
-    class="card w-fit h-24 flex justify-between rounded-2xl p-2 text-white"
+    class="card flex justify-between w-full lg:w-fit h-fit rounded-3xl border dark:border-slate-700 p-4 overflow-hidden"
   >
-    <div class="w-32 sm:w-40 flex flex-col justify-between whitespace-nowrap px-3 py-2">
-      <h4 v-text="props.label" class="text-2xl mb-1 font-semibold"></h4>
+    <div class="flex flex-col py-2 pl-4">
+      <h4 v-text="props.name" class="text-2xl font-semibold"></h4>
+      <p v-text="props.description" class="text-sm"></p>
 
-      <a
-        v-for="[icon, url] in props.links"
-        :class="icon"
-        :href="url"
-        target="_blank"
-        class="text-2xl"
-      >
-      </a>
-    </div>
-
-    <div class="relative flex w-fit justify-center items-end">
-      <img
-        v-if="props.image"
-        :src="props.image"
-        class="absolute h-20 -translate-y-7 z-10"
-      />
-      <span
-        v-text="props.id"
-        class="px-1 font-semibold opacity-50 -translate-x-2 text-5xl"
-      ></span>
+      <p class="flex flex-wrap">
+        <span
+          v-for="tag in props.tags"
+          v-text="tag"
+          class="bg text-xs text-primary-500 rounded-full p-1 px-3 mr-2 mt-5"
+        ></span>
+      </p>
     </div>
 
     <a
-      :href="props.url"
+      :href="props.repo"
       target="_blank"
-      class="flex items-center bg-white rounded-full px-0.5"
+      class="bg flex items-center rounded-full text-primary-500 ml-5 px-0.5"
     >
-      <i
-        :style="{ color: props.color }"
-        class="bi-arrow-right-short text-2xl"
-      ></i>
+      <i class="bi-arrow-right-short text-3xl"></i>
     </a>
   </div>
 </template>
@@ -52,7 +36,14 @@ defineProps<Props>();
 </script>
 
 <style scoped>
+.dark .card {
+  background: rgba(30, 41, 59, 0.5);
+}
 .card {
-  max-width: 350px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.5);
+}
+.bg {
+  background-color: rgba(6, 181, 241, 0.1);
 }
 </style>

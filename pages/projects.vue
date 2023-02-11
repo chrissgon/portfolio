@@ -2,12 +2,12 @@
   <div class="page relative w-full flex flex-col items-center">
     <input
       v-model="ProjectStore.filter"
-      class="bg-slate-100 dark:bg-slate-800 max-w-2xl py-2 px-6 w-full my-10 rounded-full"
+      class="border dark:border-slate-700 dark:bg-slate-800 max-w-2xl py-2 px-6 w-full my-10 rounded-full"
       type="text"
       placeholder="🔍 Pesquise"
     />
 
-    <article class="flex justify-center flex-wrap">
+    <article class="w-full flex justify-center flex-wrap">
       <Card
         v-for="project in ProjectStore.getProjects"
         :props="project"
