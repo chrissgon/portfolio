@@ -1,24 +1,27 @@
 ![Interactive Portfolio](./public/thumb.png)
 
-# Portfolio Interativo
-### DESCRICAO
+# Interactive Portfolio
+###  Interactive Portfolio developed in Nuxt 3 + Typescript
 
-## Comandos
-- Clona o repositório.
+## Comands
+- Clone the repository.
 ``` bash
-git clone git@github.com:chrissgon/repo.git
+git clone git@github.com:chrissgon/portfolio.git
 ```
-- Instala dependências.
+- Install dependencies.
 ``` bash
 npm i
 ```
-- Executa aplicação.
+- Run application.
 ``` bash
 npm run dev
 ```
 
-## Anotações
-Aplicação hospedada em <a href="http://localhost:3000/">http://localhost:3000/</a>.
+## Anotations
+Application hosted in <a href="http://localhost:3000/">http://localhost:3000/</a>.
+
+## References
+- [Figma Design](https://www.figma.com/file/YMuATy30gMHyjuzEah0UW7/Portfolio?t=UtfWb2l7p2VAcdgF-6)
 
 ---
-Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)
+Developed by [Christopher Gonçalves](https://github.com/chrissgon)
