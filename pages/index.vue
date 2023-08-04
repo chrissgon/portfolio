@@ -16,7 +16,7 @@
 
     <!-- intro -->
     <article class="flex flex-col items-center">
-      <div class="relative w-full flex justify-end mt-10 sm:mt-0">
+      <div class="relative w-full flex justify-end mt-10 sm:mt-0 max-sm:hidden">
         <Tooltip
           class="flex text-inherit sm:right-32 bottom-5 bg-slate-100 dark:bg-slate-800 [&_img]:cursor-pointer [&_.reactions]:w-6"
         >
@@ -50,7 +50,7 @@
             love: reaction === Reaction.Love,
             wow: reaction === Reaction.Wow,
           }"
-          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-6 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 sm:translate-x-32 py-2"
+          class="w-14 flex justify-center rounded-xl -translate-y-16 [&_.reaction]:w-6 [&_.reaction]:hidden bg-slate-100 dark:bg-slate-800 sm:translate-x-32 py-2 max-sm:hidden"
         >
           <img src="/like.gif" class="reaction [.like_&]:flex" />
           <img src="/love.gif" class="reaction [.love_&]:flex" />
